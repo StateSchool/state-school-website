@@ -28,6 +28,11 @@ body {
     color: rgb(118, 116, 116);
     padding: 6px;
     font-size: 23px;
+    cursor: crosshair;
+}
+
+.navbar a:hover{
+    color: black;
 }
 
 .mobile-navbar{
@@ -42,7 +47,9 @@ body {
 .works li{
     padding-left: 10px;
 }
-
+ .works a:hover{
+     color: black;
+ }
 .work-display{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -62,15 +69,23 @@ width: 1000px;
     display: none;
 }
 .slide-link{
-    cursor: pointer;
+    cursor: crosshair;
 }
 
+.slide-link:hover{
+    color: black;
+}
 .logoNB{
     border: solid black 3px;
 }
 .logoNB:hover{
     border: none;
     width: 106px;
+}
+
+.notw-name, .kz-name, .avaish-name, .george-name, .mm-name, .f1416-name{
+    border: dashed 1px black;
+    
 }
 
 /* 
