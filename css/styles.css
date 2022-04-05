@@ -4,7 +4,6 @@ body {
 
 
 .home-body {
-    display: flex;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -15,7 +14,12 @@ body {
 
 
 .logo {
-    width: 300px;
+    width: 350px;
+    padding-left: 12px;
+}
+
+.logo:hover{
+cursor: crosshair;
 }
 
 .logo2 {
@@ -28,11 +32,39 @@ body {
     color: rgb(118, 116, 116);
     padding: 6px;
     font-size: 23px;
-    cursor: crosshair;
+ 
 }
+
+.main-navbar ul {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(118, 116, 116);
+    padding-left: 7px;
+    margin: 2px;
+    font-size: 25px;
+    cursor: crosshair;
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+
+.main-navbar a{
+    padding-right: 0;
+    padding-left: 8px;
+
+}
+
+
 
 .navbar a:hover{
     color: black;
+    cursor: crosshair;
+}
+
+.main-navbar a:hover{
+    color: black;
+    cursor: crosshair;
 }
 
 .mobile-navbar{
@@ -49,6 +81,7 @@ body {
 }
  .works a:hover{
      color: black;
+     cursor: crosshair;
  }
 .work-display{
     display: grid;
@@ -68,12 +101,17 @@ width: 1000px;
 .mySlides {
     display: none;
 }
+
+.mySlides:hover{
+    cursor: crosshair;
+}
 .slide-link{
     cursor: crosshair;
 }
 
 .slide-link:hover{
     color: black;
+   
 }
 .logoNB{
     border: solid black 3px;
@@ -88,6 +126,15 @@ width: 1000px;
     
 }
 
+
+
+
+.about-text{
+    padding: 13px;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
 /* 
 Audi 
 A1 
