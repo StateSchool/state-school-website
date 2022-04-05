@@ -1,0 +1,132 @@
+body {
+    font-family: futura-pt, sans-serif;
+}
+
+
+.home-body {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+
+.logo {
+    width: 300px;
+}
+
+.logo2 {
+    width: 100px;
+}
+
+.navbar li, a, ul{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(118, 116, 116);
+    padding: 6px;
+    font-size: 23px;
+}
+
+.mobile-navbar{
+    display: none;
+}
+
+.works li a, .work-links {
+    font-size: medium;
+    
+}
+
+.works li{
+    padding-left: 10px;
+}
+
+.work-display{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+ 
+}
+
+.notw-pic{
+margin-top: -100px;
+width: 1000px;
+}
+
+.slideshow{
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+.slide-link{
+    cursor: pointer;
+}
+
+.logoNB{
+    border: solid black 3px;
+}
+.logoNB:hover{
+    border: none;
+    width: 106px;
+}
+
+/* 
+Audi 
+A1 
+parking 
+space 
+*/
+
+/************** Mobile & RESPONSIVE ********************/
+
+@media screen and (min-width:350px) and (max-width: 700px) {
+    .home-body {
+        display: block;
+        position: absolute    
+    }
+
+    .navbar{    
+     display: none;
+    }
+
+    .navbar li, a, ul{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(118, 116, 116);
+        padding: 6px;
+        font-size: 23px;    
+    }
+
+    .mobile-navbar  {
+        display: flex;
+        padding-top: 2px;
+    }
+
+    .mobile-navbar ul, li, a{
+        padding: 2px;
+        margin: 0;
+    }
+
+    .logo {
+    margin: auto;    
+    }
+
+    .hometext a {
+        color:black;
+        font-weight: bold;
+    }
+
+    .works li, ul{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1900px) {
+   .notw-pic {
+       width: 1500px;
+   } 
+}
